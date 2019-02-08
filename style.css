@@ -1,0 +1,122 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.second-container {
+  display: flex;
+  width: 310px;
+  height: auto;
+  flex-wrap: wrap;
+  border-collapse: collapse;
+  background: #959D76;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  font-size: 70px;
+  text-align: center;
+}
+
+.box4 {
+  border: 2px solid #000;
+}
+
+.box1,
+.box7 {
+  border-right: 2px solid #000;
+  border-left: 2px solid #000;
+}
+
+.box3,
+.box5 {
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+.box7 {
+  margin-bottom: 50px;
+}
+
+.box:hover {
+  background: #5873b0;
+  cursor: pointer;
+}
+
+body h2 {
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  background: #845b2c;
+}
+
+.result {
+  display: none;
+  min-width: 20vw;
+  top: 100px;
+  background-color: rgba(205, 133, 63, 0.8);
+  position: fixed;
+  left: 50%;
+  margin-left: -175px;
+  padding: 15px 5px 15px 5px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+}
+
+.buttons {
+  display: inline-block;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+  box-shadow: 2px 2px 1px;
+}
+
+button:hover {
+  background: #2a1cdd;
+  opacity: 0.8;
+}
+
+.message {
+  display: none;
+  min-width: 200px;
+  top: 50px;
+  background-color: lightcoral;
+  position: absolute;
+  left: 50%;
+  margin-left: -135px;
+  padding: 15px 5px 15px 5px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 1em;
+}
+
+.turn {
+  display: none;
+  width: 250px;
+  bottom: 50px;
+  position: absolute;
+  left: 50%;
+  margin-left: -95px;
+  padding: 25px 5px 15px 5px;
+  text-align: center;
+  color: #000;
+  font-size: 2em;
+  font-family: 'Indie Flower', cursive;
+}
